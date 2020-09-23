@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: black;
+}
+.neontxt {
+  text-align: center;
+  line-height: 100vh;
+  font-size: 8rem;
+  transition: 0.5s ease;
+}
+
+.neonofff {
+  color: rgb(24, 22, 22);
+  text-shadow: none;
+}
+.neonon {
+  color: white;
+  text-shadow: 1px 10px 20px white, 1px -10px 20px white;
+  filter: blur(0.5px);
+}
